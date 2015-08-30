@@ -1,0 +1,16 @@
+Release 14.7 ngdbuild P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe -intstyle
+ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 SignExtImm.ngc SignExtImm.ngd
+
+WARNING:NgdBuild:257 - Launcher: Could not find the file
+   "C:\Users\jariasm1\Documents\GitHub\Procesador_MIPS_-Verilog-\SignExtImm"
+   with extension "ngc" in the search path.
+ERROR:NgdBuild:1364 - Top-level input design file "SignExtImm.ngc" cannot be
+   found or created. Please make sure the source file exists and is of a
+   recognized netlist format (e.g., ngo, ngc, edif, edn, or edf).
+Total REAL time to NGDBUILD completion:  0 sec
+Total CPU time to NGDBUILD completion:   0 sec
+
+Writing NGDBUILD log file "SignExtImm.bld"...
