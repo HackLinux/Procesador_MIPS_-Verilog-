@@ -22,6 +22,7 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="ProcesadorMIPS.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="RegisterArray_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="SigExtImm_Test_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SigExtImm_Test_stx_beh.prj"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="SignExtImm.bld"/>
@@ -60,9 +61,10 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1440910471" xil_pn:in_ck="8240035042717588978" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1440910471">
+    <transform xil_pn:end_ts="1441075457" xil_pn:in_ck="6553995985065520058" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1441075457">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="RegisterArray.v"/>
       <outfile xil_pn:name="SigExtImm_Test.v"/>
       <outfile xil_pn:name="SignExtImm.v"/>
       <outfile xil_pn:name="ZeroExtImm.v"/>
@@ -71,10 +73,12 @@
     <transform xil_pn:end_ts="1440910471" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-8107913527720158614" xil_pn:start_ts="1440910471">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
     <transform xil_pn:end_ts="1440910471" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-2907154126879226328" xil_pn:start_ts="1440910471">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
     <transform xil_pn:end_ts="1440910471" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="8039670962043725289" xil_pn:start_ts="1440910471">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -83,6 +87,10 @@
     <transform xil_pn:end_ts="1440910471" xil_pn:in_ck="8240035042717588978" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1440910471">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="SigExtImm_Test.v"/>
       <outfile xil_pn:name="SignExtImm.v"/>
       <outfile xil_pn:name="ZeroExtImm.v"/>
@@ -91,6 +99,8 @@
     <transform xil_pn:end_ts="1440910474" xil_pn:in_ck="8240035042717588978" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-1057885512192966317" xil_pn:start_ts="1440910471">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="ZeroExtImm_Test_beh.prj"/>
@@ -103,6 +113,8 @@
     <transform xil_pn:end_ts="1440910474" xil_pn:in_ck="3443563934999466535" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="2628834290544221270" xil_pn:start_ts="1440910474">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="ZeroExtImm_Test_isim_beh.wdb"/>
