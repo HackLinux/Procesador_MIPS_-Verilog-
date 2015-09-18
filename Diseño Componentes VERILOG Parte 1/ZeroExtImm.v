@@ -1,31 +1,44 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Mauricio Salomon - 200900582
-// Miguel Taylor -201117893
-// Juan Pablo Arias Mora - 200826602
-// Sebastian Gonzalez - 201159610
+// Company: 
+// Engineer: 
+// 
+// Create Date:    22:51:46 08/29/2015 
+// Design Name: 
+// Module Name:    ZeroExtImm 
+// Project Name: 
+// Target Devices: 
+// Tool versions: 
+// Description: 
+//
+// Dependencies: 
+//
+// Revision: 
+// Revision 0.01 - File Created
+// Additional Comments: 
+//
 //////////////////////////////////////////////////////////////////////////////////
-module SignExtImm( entrada, salida );
+module ZeroExtImm( entrada, salida );
 	input[15:0] entrada;
 	output reg[31:0] salida;
 	always @(entrada)
 	begin
-		salida[31] = entrada[15];
-		salida[30] = entrada[15];
-		salida[29] = entrada[15];
-		salida[28] = entrada[15];
-		salida[27] = entrada[15];
-		salida[26] = entrada[15];
-		salida[25] = entrada[15];
-		salida[24] = entrada[15];
-		salida[23] = entrada[15];
-		salida[22] = entrada[15];
-		salida[21] = entrada[15];
-		salida[20] = entrada[15];
-		salida[19] = entrada[15];
-		salida[18] = entrada[15];
-		salida[17] = entrada[15];
-		salida[16] = entrada[15];
+		salida[31] = 0;
+		salida[30] = 0;
+		salida[29] = 0;
+		salida[28] = 0;
+		salida[27] = 0;
+		salida[26] = 0;
+		salida[25] = 0;
+		salida[24] = 0;
+		salida[23] = 0;
+		salida[22] = 0;
+		salida[21] = 0;
+		salida[20] = 0;
+		salida[19] = 0;
+		salida[18] = 0;
+		salida[17] = 0;
+		salida[16] = 0;
 		salida[15] = entrada[15];
 		salida[14] = entrada[14];
 		salida[13] = entrada[13];

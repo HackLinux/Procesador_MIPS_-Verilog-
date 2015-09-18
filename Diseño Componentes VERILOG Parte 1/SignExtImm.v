@@ -1,9 +1,22 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Mauricio Salomon - 200900582
-// Miguel Taylor -201117893
-// Juan Pablo Arias Mora - 200826602
-// Sebastian Gonzalez - 201159610
+// Company: 
+// Engineer: 
+// 
+// Create Date:    22:36:25 08/29/2015 
+// Design Name: 
+// Module Name:    SignExtImm 
+// Project Name: 
+// Target Devices: 
+// Tool versions: 
+// Description: 
+//
+// Dependencies: 
+//
+// Revision: 
+// Revision 0.01 - File Created
+// Additional Comments: 
+//
 //////////////////////////////////////////////////////////////////////////////////
 module SignExtImm( entrada, salida );
 	input[15:0] entrada;

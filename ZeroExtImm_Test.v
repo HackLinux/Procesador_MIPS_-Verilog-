@@ -1,26 +1,11 @@
 `timescale 1ns / 1ps
 
-////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer:
-//
-// Create Date:   22:53:23 08/29/2015
-// Design Name:   ZeroExtImm
-// Module Name:   C:/Users/jariasm1/Documents/GitHub/Procesador_MIPS_-Verilog-/ZeroExtImm_Test.v
-// Project Name:  ProcesadorMIPS
-// Target Device:  
-// Tool versions:  
-// Description: 
-//
-// Verilog Test Fixture created by ISE for module: ZeroExtImm
-//
-// Dependencies:
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
+// Mauricio Salomon - 200900582
+// Miguel Taylor -201117893
+// Juan Pablo Arias Mora - 200826602
+// Sebastian Gonzalez - 201159610
+//////////////////////////////////////////////////////////////////////////////////
 
 module ZeroExtImm_Test;
 
